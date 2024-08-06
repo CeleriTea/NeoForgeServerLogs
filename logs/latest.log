@@ -1,0 +1,29 @@
+[06Aug2024 17:14:05.239] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.0.163, --fml.fmlVersion, 4.0.23, --fml.mcVersion, 1.21, --fml.neoFormVersion, 20240613.152323]
+[06Aug2024 17:14:05.244] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 22+36-2370
+[06Aug2024 17:14:05.245] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 22 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[06Aug2024 17:14:05.434] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[06Aug2024 17:14:05.498] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.6 Source=union:/C:/Users/gerar/Desktop/NeoForge%201.21%20Server/libraries/net/fabricmc/sponge-mixin/0.14.0+mixin.0.8.6/sponge-mixin-0.14.0+mixin.0.8.6.jar%2375!/ Service=ModLauncher Env=SERVER
+[06Aug2024 17:14:05.672] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21-20240613.152323-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.0.163:server]
+[06Aug2024 17:14:05.691] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.163-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.0.163\neoforge-21.0.163-universal.jar]], reader: mod manifest]
+[06Aug2024 17:14:05.700] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "balm-neoforge-1.21-21.0.14-all.jar" [locator: {mods folder locator at C:\Users\gerar\Desktop\NeoForge 1.21 Server\mods}, reader: mod manifest]
+[06Aug2024 17:14:05.707] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "DeathCounter-1.21-NeoForge-1.4.0.jar" [locator: {mods folder locator at C:\Users\gerar\Desktop\NeoForge 1.21 Server\mods}, reader: mod manifest]
+[06Aug2024 17:14:05.714] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "iChunUtil-1.21-NeoForge-1.0.1.jar" [locator: {mods folder locator at C:\Users\gerar\Desktop\NeoForge 1.21 Server\mods}, reader: mod manifest]
+[06Aug2024 17:14:05.721] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "waystones-neoforge-1.21-21.0.8 (1).jar" [locator: {mods folder locator at C:\Users\gerar\Desktop\NeoForge 1.21 Server\mods}, reader: mod manifest]
+[06Aug2024 17:14:05.726] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "worldedit-mod-7.3.5.jar" [locator: {mods folder locator at C:\Users\gerar\Desktop\NeoForge 1.21 Server\mods}, reader: mod manifest]
+[06Aug2024 17:14:05.826] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[06Aug2024 17:14:05.826] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "kuma-api-neoforge-21.0.4+1.21.jar" [parent: balm-neoforge-1.21-21.0.14-all.jar, locator: jarinjar, reader: mod manifest]
+[06Aug2024 17:14:05.826] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.3.5.jar" [parent: neoforge-21.0.163-universal.jar, locator: jarinjar, reader: mod manifest]
+[06Aug2024 17:14:06.020] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [neoforge]
+[06Aug2024 17:14:07.122] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Aug2024 17:14:07.126] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[06Aug2024 17:14:07.144] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[06Aug2024 17:14:07.219] [main/WARN] [mixin/]: Reference map 'ichunutil.refmap.json' for ichunutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Aug2024 17:14:07.221] [main/WARN] [mixin/]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Aug2024 17:14:07.221] [main/WARN] [mixin/]: Reference map 'worldedit-neoforge.mixins.refmap.json' for worldedit-neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Aug2024 17:14:07.222] [main/WARN] [mixin/]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Aug2024 17:14:07.223] [main/WARN] [mixin/]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Aug2024 17:14:07.537] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 66)
+[06Aug2024 17:14:07.540] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 66)
+[06Aug2024 17:14:07.542] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/MethodHandles$Lookup (java.lang.IllegalArgumentException: Unsupported class file major version 66)
+[06Aug2024 17:14:07.661] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[06Aug2024 17:14:07.697] [main/WARN] [mixin/]: Error loading class: java/lang/invoke/LambdaMetafactory (java.lang.IllegalArgumentException: Unsupported class file major version 66)
